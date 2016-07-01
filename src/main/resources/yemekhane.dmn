@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn11.xsd" id="definitions" name="definitions" namespace="http://camunda.org/schema/1.0/dmn">
+  <decision id="yemekhane" name="Yemekhane">
+    <decisionTable id="decisionTable">
+      <input id="input1" label="Gun">
+        <inputExpression id="inputExpression1" typeRef="string">        <text>input1</text>
+</inputExpression>
+      </input>
+      <input id="InputClause_0hmkumv" label="Ogun">
+        <inputExpression id="LiteralExpression_0m7s53h" typeRef="string">        <text>input2</text>
+</inputExpression>
+      </input>
+      <output id="output1" label="Ana Yemek" name="output1" typeRef="string" />
+      <output id="OutputClause_1qykej5" label="Aperatif" name="output2" typeRef="string" />
+      <output id="OutputClause_04qyrkw" label="Icecek" name="output3" typeRef="string" />
+      <rule id="row-950612891-1">
+        <inputEntry id="UnaryTests_0c1o054">        <text><![CDATA["Pazartesi"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_1lod0sz">        <text><![CDATA["Ogle"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_065u3ym">        <text><![CDATA["Tavuk Izgara"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1994586">        <text><![CDATA["Corba"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_0me92oc">        <text><![CDATA["Ayran"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-950612891-2">
+        <inputEntry id="UnaryTests_0u1z4ho">        <text><![CDATA["Pazartesi"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_1euytqf">        <text><![CDATA["Aksam"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_198frve">        <text><![CDATA["Bezelye"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_054jqhi">        <text><![CDATA["Salata"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_0hua6i9">        <text><![CDATA["Kola"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-950612891-3">
+        <inputEntry id="UnaryTests_1vn9t5c">        <text><![CDATA["Sali"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_1bbbmvu">        <text><![CDATA["Ogle"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_1bewepn">        <text><![CDATA["Et Kavurma"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1fnbon8">        <text><![CDATA["Yogurt"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1rfix1q">        <text><![CDATA["Limonata"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-950612891-4">
+        <inputEntry id="UnaryTests_0ogofox">        <text><![CDATA["Sali"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_0c60gjz">        <text><![CDATA["Aksam"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_1lahvj7">        <text><![CDATA["Pirzola"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_05wjmbd">        <text><![CDATA["Salata"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_02v63jn">        <text><![CDATA["Ayran"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-950612891-5">
+        <inputEntry id="UnaryTests_1774yme">        <text><![CDATA["Carsamba"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_01rn17i">        <text><![CDATA["Ogle"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_0jpd7hr">        <text><![CDATA["Tas Kebabi"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_10i2cs7">        <text><![CDATA["Salata"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1180ljy">        <text><![CDATA["Kola"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-950612891-6">
+        <inputEntry id="UnaryTests_0ifdx8k">        <text><![CDATA["Carsamba"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_0c8ym7l">        <text><![CDATA["Aksam"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_08d4mb6">        <text><![CDATA["Patlican"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_0dmph7h">        <text><![CDATA["Pilav"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1kf11hc">        <text><![CDATA["Limonata"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-6443456-1">
+        <inputEntry id="UnaryTests_16y2sh6">        <text><![CDATA["Persembe"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_0gnsza5">        <text><![CDATA["Ogle"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_0m7ldpo">        <text><![CDATA["Yahni"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1rxg56h">        <text><![CDATA["Yogurt"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_03dzorq">        <text><![CDATA["Ayran"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-6443456-2">
+        <inputEntry id="UnaryTests_0e7c0vh">        <text><![CDATA["Persembe"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_0duznzf">        <text><![CDATA["Aksam"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_10l4eh1">        <text><![CDATA["Barbunya"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_082x1su">        <text><![CDATA["Yogurt"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_0lier2x">        <text><![CDATA["Limonata"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-6443456-3">
+        <inputEntry id="UnaryTests_1fedrr5">        <text><![CDATA["Cuma"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_1qjt4xz">        <text><![CDATA["Ogle"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_1kq33sg">        <text><![CDATA["Balik"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_16iti46">        <text><![CDATA["Salata"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1tn1w4f">        <text><![CDATA["Kola"]]></text>
+</outputEntry>
+      </rule>
+      <rule id="row-6443456-4">
+        <inputEntry id="UnaryTests_0sqmoou">        <text><![CDATA["Cuma"]]></text>
+</inputEntry>
+        <inputEntry id="UnaryTests_12w0kqu">        <text><![CDATA["Aksam"]]></text>
+</inputEntry>
+        <outputEntry id="LiteralExpression_17icmho">        <text><![CDATA["Patates Yemegi"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1c9s16s">        <text><![CDATA["Yogurt"]]></text>
+</outputEntry>
+        <outputEntry id="LiteralExpression_1b9k3dm">        <text><![CDATA["Ayran"]]></text>
+</outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
